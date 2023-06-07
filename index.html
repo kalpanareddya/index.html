@@ -1,0 +1,92 @@
+<html>
+<style>
+   #projects h4 {
+    width: 1rem;
+   }
+     .section-plum{
+        background-color: var(--plum);
+     }
+     .section-dkblue{
+        background-color: var(--dkblue);
+     }
+     #projects{
+        padding: 4rem 1rem;
+     }
+     #projects h2 {
+        font-size: 2.5rem;
+        margin-bottom: calc(2.5rem * 1.5);
+     }
+     #projects h3{
+        color: var(--aqua);
+     }
+     #projects h4 {
+        font-size: 1rem;
+        font-family: var(--mono);
+     }
+     .blackbox {
+        background-color: var(--black);
+        padding: 1rem;
+        border-radius: 10px;
+        color: var(--white);
+        font-size:1rem ;
+        line-height: 1.5;
+     }
+  #projects img{
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid var(--aqua);
+    border-top:1px solid var(--aqua); 
+    border-radius: 25px;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+   @media (min-width:550px)  {
+
+     article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+     }
+   }
+   .text {
+    order: 2;
+    
+    
+   }
+    #projects ul{
+        list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+</style>
+
+<div class="section-dkblue">
+
+<section id=" projects">
+ <h2>I'm proud of</h2>
+   <article>
+<div class="text">
+    
+     <h4>  Latest Project  </h4>
+
+ <h3>Wall of Wonder</h3>
+     <p>Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like this</a> and <a href="#">like this</a>.</p>
+
+    <h4>technologies used include:</h4>
+     <ul>
+    <li> HTML </li>
+        
+       <li> SVG </li>
+   <li> css</li>
+     </ul>   </div>
+<img src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png" alt="Screenshot of the Wall of Wonder." />
+ </article>
+</section></div>
